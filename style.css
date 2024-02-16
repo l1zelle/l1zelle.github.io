@@ -1,27 +1,63 @@
-html {
+body {
     background: #81b29a;
+    font-family: "Miriam Libre", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 
   
-.heading {
+.title {
     font-family: "Miriam Libre", sans-serif;
     font-weight: 700;
     font-style: normal;
     color: #fbffd5;
     text-align: center;
     font-size: 100px;
-    margin-top: 140px;
+    margin-top: 85px;
 }
 
-.subheading {
+.subtitle {
     font-family: "Miriam Libre", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #fbffd5;
     text-align: center;
-    font-size: 50px;
-    margin-top: 160px;
+    font-size: 45px;
+    margin-bottom: 50px;
+   
+}
+
+img {
+    display: block;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 99%;
+    margin-bottom: 50px;
     
 }
+
+.container {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.column {
+    display: block;
+    background-color: #fbffd5;
+    padding: 50px 150px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    font-size: 30px;
+    line-height: 50px;
+
+}
+
+
   
