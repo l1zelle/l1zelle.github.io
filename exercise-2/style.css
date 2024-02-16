@@ -1,0 +1,38 @@
+body {
+    font-family: "ff-folk-rough", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color:aliceblue;
+    background-color: rgb(162, 5, 5);
+    text-align: center;
+    margin: 50px;
+    
+    
+}
+
+h1 {
+    font-size: 100px;
+    
+}
+
+h2 {
+    font-size: 45px;
+}
+
+strong {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h1, h2, h3 {
+    letter-spacing: 7px;
+}
+
+
+
+a {
+    color: aliceblue;
+}

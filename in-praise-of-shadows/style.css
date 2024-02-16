@@ -1,0 +1,29 @@
+body {
+
+
+
+}
+
+.title {
+    font-size: 100px;
+    
+
+}
+
+.title2 {
+    width: 130px;
+    color: rgb(187, 9, 187);
+    font-size: 150px;
+
+}
+
+.title, .title2 {
+    width: 685px;
+    height: 297px;
+    margin: auto;
+    line-height: 130px;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+
+}
