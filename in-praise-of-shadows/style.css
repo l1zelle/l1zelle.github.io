@@ -1,11 +1,14 @@
 body {
-
+    background-color: white;
+    color: black;
 
 
 }
 
 .title {
     font-size: 100px;
+    margin-top: 150px;
+    margin-left: 100px;
     
 
 }
@@ -17,13 +20,20 @@ body {
 
 }
 
+a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+    transform: translate(20px, -10%);
+}
+
+
+
 .title, .title2 {
     width: 685px;
     height: 297px;
-    margin: auto;
     line-height: 130px;
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
 
 }
+

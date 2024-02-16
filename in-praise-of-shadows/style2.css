@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+
+
+}
+
+.title {
+    font-size: 100px;
+    margin-top: 150px;
+    margin-left: 100px;
+    
+
+}
+
+.title2 {
+    width: 130px;
+    color:#744493;
+    font-size: 150px;
+
+}
+
+.title, .title2 {
+    width: 685px;
+    height: 297px;
+    line-height: 130px;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+
+}
+
+a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+}
+
+
+.container {
+    text-align: right;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.section {
+    display: block;
+    background: radial-gradient(#9e0dff, #9198e500);
+    margin-left: 70%;
+    width: 60px;
+    padding: 5%;
+    margin-bottom: 50px;
+    border-radius: 100%;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+
