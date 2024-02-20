@@ -34,8 +34,8 @@ a {
 
 .inner-cursor{
     position: fixed;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     filter: blur(3px);
     border-radius: 50%;
     background-color: rgb(205, 68, 230);
@@ -57,34 +57,6 @@ a {
     
 }
 
-.back-arrow {
-    font-size: 50px;
-    padding: 30px;
-    position: fixed;
-    top: 11;
-    color: white;
-}
-
-.two {
-    font-size: 50px;
-    padding: 30px;
-    position: fixed;
-    top: 11;
-    left: 48%;
-    color: white;
-}
-
-
-
-.next-arrow {
-    font-size: 50px;
-    padding: 30px;
-    position: fixed;
-    top: 11;
-    right: 4px;
-    color: white;
-}
-
 a:link, a:hover, a:visited, a:active {
     text-decoration: none;
 }
@@ -92,7 +64,7 @@ a:link, a:hover, a:visited, a:active {
 .paragraph {
     position:absolute;
     top: 15%;
-    color:rgb(23, 23, 23);
+    color:rgb(11, 11, 11);
     font-size: 35px;
     margin: 100px;
    
