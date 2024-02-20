@@ -1,39 +1,70 @@
 body {
     background-color: white;
     color: black;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
 
 
 }
 
 .title {
     font-size: 100px;
-    margin-top: 150px;
-    margin-left: 100px;
-    
+    position: absolute;
+    top: 200px;
+    left: 100px;
 
 }
 
 .title2 {
     width: 130px;
-    color: rgb(187, 9, 187);
+    color: rgb(154, 9, 187);
     font-size: 150px;
+    animation-name: stretch;
+        animation-duration: 3.0s;
+        animation-timing-function: ease-out;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
 
 }
-
-a:link, a:hover, a:visited, a:active {
-    text-decoration: none;
-    transform: translate(20px, -10%);
-}
-
-
 
 .title, .title2 {
     width: 685px;
     height: 297px;
     line-height: 130px;
-    font-family: "Urbanist", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
 
+}
+
+.author {
+    font-size: 40px;
+    position: fixed;
+    top: 35px;
+    right: 50px;
+    color: rgb(154, 9, 187);
+}
+
+a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+}
+
+
+
+
+
+@keyframes stretch {
+    0% {
+        opacity: 0.2;
+        filter: blur(10px);
+        
+    }
+
+    50% {
+        filter: blur(5px);
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }
 

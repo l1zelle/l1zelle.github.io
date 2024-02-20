@@ -10,8 +10,9 @@ body {
 
 .title {
     font-size: 100px;
-    margin-top: 150px;
-    margin-left: 100px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
     
 
 }
@@ -20,6 +21,12 @@ body {
     width: 130px;
     color:#744493;
     font-size: 150px;
+    animation-name: stretch;
+        animation-duration: 2.0s;
+        animation-timing-function: ease-out;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
 
 }
 
@@ -33,31 +40,85 @@ body {
 
 }
 
+.author {
+    font-size: 40px;
+    position: fixed;
+    top: 35px;
+    right: 50px;
+    color: #744493;
+}
+
 a:link, a:hover, a:visited, a:active {
     text-decoration: none;
 }
 
 
 .container {
-    text-align: right;
-    margin-right: auto;
+    width: 30px;
+    margin: auto;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+    position: absolute;
+    top: 40px;
+    right: 700px;
     
 }
+
+.container2 {
+    width: 30px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 250px;
+    right: 300px;
+    
+}
+
+.container3 {
+    width: 30px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 450px;
+    right: 600px;
+    
+}
+
 
 .section {
     display: block;
     background: radial-gradient(#9e0dff, #9198e500);
-    margin-left: 70%;
     width: 60px;
-    padding: 5%;
+    padding: 200%;
     margin-bottom: 50px;
     border-radius: 100%;
     font-size: 50px;
     text-align: center;
+    color: white;
+    
 }
+
+@keyframes stretch {
+    100% {
+        opacity: 100%;
+        
+    }
+
+    50% {
+        filter: blur(5px);
+    }
+
+    0% {
+        opacity: 0.2%;
+        filter: blur(10px);
+    }
+}
+
 
 
 

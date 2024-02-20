@@ -1,0 +1,99 @@
+body {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 23px;
+    background-color: black;
+    height: 150vh;
+    cursor: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav {
+    font-size: 60px;
+    position: fixed;
+    top: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 10%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    z-index:1;
+    
+}
+
+.inner-cursor{
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    filter: blur(3px);
+    border-radius: 50%;
+    background-color: rgb(205, 68, 230);
+    transform: translate(-50%, -50%);
+    mix-blend-mode: color-dodge;
+    pointer-events: none;
+}
+
+.outer-cursor {
+    position: fixed;
+    width: 5px;
+    height: 5px;
+    background-color: rgba(168, 97, 235, 0);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: 0.1s;
+
+    
+}
+
+.back-arrow {
+    font-size: 50px;
+    padding: 30px;
+    position: fixed;
+    top: 11;
+    color: white;
+}
+
+.two {
+    font-size: 50px;
+    padding: 30px;
+    position: fixed;
+    top: 11;
+    left: 48%;
+    color: white;
+}
+
+
+
+.next-arrow {
+    font-size: 50px;
+    padding: 30px;
+    position: fixed;
+    top: 11;
+    right: 4px;
+    color: white;
+}
+
+a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+}
+
+.paragraph {
+    position:absolute;
+    top: 15%;
+    color:rgb(23, 23, 23);
+    font-size: 35px;
+    margin: 100px;
+   
+}
