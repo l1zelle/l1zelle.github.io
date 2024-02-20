@@ -1,9 +1,9 @@
 body {
     background-color: white;
     color: black;
-    font-family: "Urbanist", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
+    font-family: "Shippori Mincho", serif;
+    font-weight: 800;
+    font-style: normal;
 
 
 }
@@ -42,6 +42,9 @@ body {
     top: 35px;
     right: 50px;
     color: rgb(154, 9, 187);
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 a:link, a:hover, a:visited, a:active {
