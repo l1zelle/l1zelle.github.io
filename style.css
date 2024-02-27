@@ -30,7 +30,7 @@ body {
 
 img {
     display: block;
-    width: 35%;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 99%;
@@ -42,7 +42,7 @@ img {
     width: 80%;
     display: flex;
     margin: auto;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
 
@@ -51,12 +51,17 @@ img {
 .column {
     display: block;
     background-color: #fbffd5;
-    padding: 50px 150px;
+    padding: 50px 70px;
     margin-bottom: 30px;
+    margin: 50px;
     border-radius: 50px;
     font-size: 30px;
     line-height: 50px;
 
+}
+
+h2 {
+    color: #81b29a;
 }
 
 
