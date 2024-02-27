@@ -4,12 +4,12 @@ body {
     font-family: "Shippori Mincho", serif;
     font-weight: 400;
     font-style: normal;
-
+    font-size: 100px;
 
 }
 
 .title {
-    font-size: 100px;
+    
     position: absolute;
     top: 200px;
     left: 100px;
@@ -19,7 +19,7 @@ body {
 
 .title2 {
     width: 130px;
-    color:#744493;
+    color:blueviolet;
     font-size: 150px;
     animation-name: stretch;
         animation-duration: 2.0s;
@@ -33,7 +33,7 @@ body {
 
 
 .title, .title2 {
-    width: 685px;
+    width: clamp(400px, 100vw, 600px);
     height: 297px;
     line-height: 130px;
     font-family: "Shippori Mincho", serif;
@@ -47,7 +47,7 @@ body {
     position: fixed;
     top: 35px;
     right: 50px;
-    color: #744493;
+    color: blueviolet;
 }
 
 a:link, a:hover, a:visited, a:active {
@@ -57,7 +57,6 @@ a:link, a:hover, a:visited, a:active {
 
 .container {
     width: 30px;
-    margin: auto;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -65,11 +64,11 @@ a:link, a:hover, a:visited, a:active {
     top: 50px;
     right: 700px;
     
+    
 }
 
 .container2 {
     width: 30px;
-    margin: auto;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -81,7 +80,6 @@ a:link, a:hover, a:visited, a:active {
 
 .container3 {
     width: 30px;
-    margin: auto;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -94,7 +92,7 @@ a:link, a:hover, a:visited, a:active {
 
 .section {
     display: block;
-    background: radial-gradient(#9e0dff, #9198e500);
+    background: radial-gradient(blueviolet, #9198e500);
     width: 75px;
     height: 75px;
     padding: 200%;
@@ -108,7 +106,7 @@ a:link, a:hover, a:visited, a:active {
 
 .section:hover {
     transform: scale(1.3, 1.3);
-    background: radial-gradient(#ef0dff, #c991e500);
+    background: radial-gradient(#cb0dff, #c991e500);
 }
 
 @keyframes stretch {
@@ -127,7 +125,87 @@ a:link, a:hover, a:visited, a:active {
     }
 }
 
+@media screen and (max-width: 1400px) {
+    
+    .container {
+        position: absolute;
+        top: 50px;
+        right: 300px;
+    }
+    .container3 {
+        position: absolute;
+        top: 450px;
+        right: 300px;
+    }
+    .author {
+        position: fixed;
+        top: 35px;
+        left: 50px;
+    }
+}
 
+@media screen and (max-width: 1100px) {
+    .container {
+        position: absolute;
+        top: 500px;
+        left: 90px;
+    }
+    .container2 {
+        position: absolute;
+        top: 500px;
+        left: 340px;
+    }
+    .container3 {
+        position: absolute;
+        top: 500px;
+        left: 590px;
+    }
+    .author {
+        position: fixed;
+        text-align: center;
+        background-color: black; 
+        
+    }
+    .title {
+        position: absolute;
+        top: 150px;
+        left: 100px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .title{
+        position:absolute;
+        left: 30px;
+        font-size: 14vw;
+    }
+    .title2 {
+        position:absolute;
+        font-size: 20vw;
+        line-height: 100px;
+    }
+    .author {
+        font-size: 7vw;
+        position: absolute;
+    }
+    .container {
+        position: absolute;
+        top: 470px;
+        left: 33%; 
+    }
+    .container2 {
+        position: absolute;
+        top: 700px;
+        left: 33%; 
+    }
+    .container3 {
+        position: absolute;
+        top: 930px;
+        left: 33%; 
+    }
+}
 
 
 

@@ -44,6 +44,7 @@ a {
     pointer-events: none;
 }
 
+
 .outer-cursor {
     position: fixed;
     width: 5px;

@@ -34,7 +34,7 @@ a {
 }
 
 .paragraph1 {
-    width: 38%;
+    width: clamp(400px, 40vw, 600px);
     position: absolute;
     top: 200px;
     left: 100px;
@@ -42,7 +42,7 @@ a {
 }
 
 .paragraph2 {
-    width: 37%;
+    width: clamp(400px, 40vw, 600px);
     position: absolute;
     top: 850px;
     right: 100px;
@@ -50,7 +50,7 @@ a {
 }
 
 .paragraph3 {
-    width: 37%;
+    width: clamp(400px, 40vw, 600px);
     position: absolute;
     top: 1550px;
     left: 100px;
@@ -58,7 +58,7 @@ a {
 }
 
 .paragraph4 {
-    width: 37%;
+    width: clamp(400px, 40vw, 600px);
     position: absolute;
     top: 2200px;
     right: 100px;

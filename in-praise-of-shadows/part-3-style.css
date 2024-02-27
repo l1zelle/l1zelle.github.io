@@ -1,0 +1,239 @@
+body {
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: blueviolet;
+    background: black;
+    
+}
+
+.nav {
+    font-size: 60px;
+    position: fixed;
+    top: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 10%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    z-index:1;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.paragraph {
+    width: clamp(400px, 40vw, 650px);
+    position: absolute;
+    margin:auto;
+    right: 0;
+    left: 0;
+    top: 200px
+}
+
+
+
+.shade1 {
+    width: 200vw;
+    height: 70px;
+    position:absolute;
+    top: -20px;
+    background-color:black;
+    filter: blur(7px);
+    animation-name: shadeFall1;
+        animation-duration: 10s;
+        animation-timing-function: ease-out;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-timeline: auto;
+
+}
+
+.shade2 {
+    width: 200vw;
+    height: 70px;
+    position:absolute;
+    top: -40px;
+    margin-bottom: 50px;
+    background-color:black;
+    filter: blur(7px);
+    animation-name: shadeFall2;
+        animation-duration: 10s;
+        animation-timing-function: ease-out;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-timeline: auto;
+    
+}
+.shade3 {
+    width: 200vw;
+    height: 70px;
+    position:absolute;
+    top: -60px;
+    margin-bottom: 50px;
+    background-color:black;
+    filter: blur(7px);
+    animation-name: shadeFall3;
+        animation-duration: 10s;
+        animation-timing-function: ease-out;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-timeline: auto;
+}
+
+.shade4 {
+    width: 200vw;
+    height: 70px;
+    position:absolute;
+    top: -80px;
+    margin-bottom: 50px;
+    background-color:black;
+    filter: blur(7px);
+    animation-name: shadeFall4;
+        animation-duration: 10s;
+        animation-timing-function: ease-out;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-timeline: auto;
+}
+.shade5 {
+    width: 200vw;
+    height: 70px;
+    position:absolute;
+    top: -80px;
+    margin-bottom: 50px;
+    background-color:black;
+    filter: blur(7px);
+    animation-name: shadeFall5;
+        animation-duration: 10s;
+        animation-timing-function: ease-out;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-timeline: auto;
+}
+.shade6 {
+    width: 200vw;
+    height: 70px;
+    position:absolute;
+    top: -80px;
+    margin-bottom: 50px;
+    background-color:black;
+    filter: blur(7px);
+    animation-name: shadeFall6;
+        animation-duration: 10s;
+        animation-timing-function: ease-out;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-timeline: auto;
+}
+.shade7 {
+    width: 200vw;
+    height: 70px;
+    position:absolute;
+    top: -80px;
+    margin-bottom: 50px;
+    background-color:black;
+    filter: blur(7px);
+    animation-name: shadeFall7;
+        animation-duration: 10s;
+        animation-timing-function: ease-out;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-timeline: auto;
+}
+
+
+@keyframes shadeFall1 {
+    0% {
+        top: -20px;
+    }
+    100% {
+        top: 3000px;
+    }
+}
+@keyframes shadeFall2 {
+    0% {
+        top: -40px;
+    }
+    100% {
+        top: 2600px;
+    }
+}
+@keyframes shadeFall3 {
+    0% {
+        top: -80px;
+    }
+    100% {
+        top: 2200px;
+    }
+}
+@keyframes shadeFall4 {
+    0% {
+        top: -100px;
+    }
+    100% {
+        top: 1800px;
+    }
+}
+@keyframes shadeFall5 {
+    0% {
+        top: -120px;
+    }
+    100% {
+        top: 1400px;
+    }
+}
+@keyframes shadeFall6 {
+    0% {
+        top: -140px;
+    }
+    100% {
+        top: 1000px;
+    }
+}
+@keyframes shadeFall7 {
+    0% {
+        top: -160px;
+    }
+    100% {
+        top: 600px;
+    }
+}
+
+
+a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+}
+
+

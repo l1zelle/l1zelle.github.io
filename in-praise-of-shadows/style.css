@@ -18,7 +18,7 @@ body {
 
 .title2 {
     width: 130px;
-    color: rgb(154, 9, 187);
+    color: blueviolet;
     font-size: 150px;
     animation-name: stretch;
         animation-duration: 3.0s;
@@ -41,7 +41,7 @@ body {
     position: fixed;
     top: 35px;
     right: 50px;
-    color: rgb(154, 9, 187);
+    color: blueviolet;
     font-family: "Shippori Mincho", serif;
     font-weight: 400;
     font-style: normal;
@@ -51,6 +51,15 @@ a:link, a:hover, a:visited, a:active {
     text-decoration: none;
 }
 
+.me {
+    position: fixed;
+    bottom: 35px;
+    left: 50px;
+    font-size: 15px;
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 
 
@@ -71,3 +80,24 @@ a:link, a:hover, a:visited, a:active {
     }
 }
 
+@media screen and (max-width: 800px) {
+    .title{
+        position:absolute;
+        left: 30px;
+        font-size: 15vw;
+    }
+    .title2 {
+        position:absolute;
+        font-size: 20vw;
+        line-height: 100px;
+    }
+    .author {
+        font-size: 7vw;
+        position: absolute;
+    }
+    .me {
+        position: absolute;
+        font-size: 2vw;
+        color: black;
+    }
+}

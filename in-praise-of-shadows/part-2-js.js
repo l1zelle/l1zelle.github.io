@@ -1,5 +1,6 @@
 let innerCursor = document.querySelector('.inner-cursor');
 let outerCursor = document.querySelector('.outer-cursor');
+let paragraphElem = document.querySelectorAll('.paragraph');
 
 document.addEventListener('mousemove', moveCursor);
 
