@@ -1,0 +1,38 @@
+body {
+    background-color:rgb(72, 72, 72);
+}
+
+#container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.letter {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+}
+
+.p, .a, .n, .d {
+    width: 120px;
+}
+
+
+.fill {
+    background-color: rgb(204, 204, 204);
+    transition-duration: 0.1s;
+}
+
+
+.fill:hover  {
+    border-radius: 15px;
+    background-color: rgb(175, 255, 200);
+  }
