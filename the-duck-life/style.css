@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+    color: #FFBE16;
+    
+}
+
+.title-duck {
+    position: relative;
+    width: 900px;
+    height: 750px;
+    margin: auto;
+}
+
+.title {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    position: absolute;
+    top: 290px;
+    left: 280px;
+    color: #FFBE16;
+}
+
+
+.duck-face {
+    position: absolute;
+    top: 5px;
+    left: 150px;
+
+}
+
+.left-foot {
+    position: absolute;
+    left: 80px;
+    bottom: 10px;
+}
+
+.right-foot {
+    position: absolute;
+    right: 80px;
+    bottom: 10px;
+    
+}
+
+a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+}
