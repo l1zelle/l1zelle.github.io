@@ -1,0 +1,38 @@
+body {
+    background-color:rgb(221, 220, 245);
+    font-family: "Lancelot", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin: 120px;
+    
+}
+
+.title {
+    font-family: "Lancelot", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+}
+
+.author {
+    font-family: "Lancelot", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    margin-left: 10px;
+    opacity: 50%;
+}
+
+#poem {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+#poem span{
+    color:rgb(121, 11, 255);
+    
+}
+
