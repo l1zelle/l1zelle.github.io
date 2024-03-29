@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.square {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+
+}
+
+.square:hover {
+    transform: scale(-0.9);
+}

@@ -28,6 +28,6 @@ img {
 }
 
 
-a:hover {
-    transition: scale(2, 2);
+img:hover {
+    transition: scale(1.1, 1.1);
 }

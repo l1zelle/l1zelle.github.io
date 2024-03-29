@@ -1,0 +1,28 @@
+body {
+    background-color: #FFBE16;
+}
+
+img {
+    border-radius: 15%;
+    width: 20%;
+    height: 20%;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.ducks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+img:hover {
+    transform: scale(1.3,1.3);
+}
+
