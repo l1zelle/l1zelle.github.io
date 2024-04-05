@@ -1,0 +1,30 @@
+body{
+    background-color: #EDE9DE;
+}
+
+.title {
+    color:blueviolet;
+    font-size: 35px;
+    position: absolute;
+    right: 100px;
+    top: 25px;
+    font-family: monospace;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 100px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #EDE9DE;
+}
+
+.box:hover {
+    transform: scale(0.8, 0.8);
+}
