@@ -10,9 +10,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Playpen+Sans:wght@100..800&family=Redacted+Script:wght@300;400;700&family=Shippori+Mincho:wght@400;800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <audio id="hoverSound" src="duck-sound.mp3"></audio>
     <div class="title-duck">
         <div class="duck-face">
-            <img src="images/duck-face.png" alt="Duck Face" style="width:330px;height:220px;">
+            <a href="#" onmouseover="playHoverSound()"><img src="images/duck-face.png" alt="Duck Face" style="width:330px;height:220px;"></a>
         </div>
         <a class="title" href="sections.html">The Duck Life</a>
         <div class="left-foot">
@@ -22,5 +23,6 @@
             <img src="images/duck-right-leg.png" alt="Duck's right foot" style="width:300px;height:300px;">
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

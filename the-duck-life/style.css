@@ -20,6 +20,7 @@ body {
     top: 290px;
     left: 280px;
     color: #FFBE16;
+    transition: transform 0.3s ease-in-out;
 }
 
 .title:hover {
@@ -31,20 +32,34 @@ body {
     position: absolute;
     top: 5px;
     left: 150px;
+    transition: transform 0.3s ease-in-out;
+}
 
+.duck-face:hover {
+    transform: translateX(40px);
 }
 
 .left-foot {
     position: absolute;
     left: 80px;
-    bottom: 10px;
+    bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.left-foot:hover {
+    transform: translateX(-30px);
 }
 
 .right-foot {
     position: absolute;
     right: 80px;
-    bottom: 10px;
+    bottom: 15px;
+    transition: transform 0.3s ease-in-out;
     
+}
+
+.right-foot:hover {
+    transform: translateX(30px);
 }
 
 a:link, a:hover, a:visited, a:active {

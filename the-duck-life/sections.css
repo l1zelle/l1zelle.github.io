@@ -3,18 +3,21 @@ body {
 }
 
 img {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
     margin: 30px;
     
 }
 
+a {
+    transition: transform 0.1s ease-in-out;
+}
+
 .container {
-    width: 1100px;
-    height: 600px;
-    position: relative;
-    top: 50px;
-    left: 200px;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
     display: flex;
     align-items: center;
     
@@ -28,6 +31,18 @@ img {
 }
 
 
-img:hover {
-    transition: scale(1.1, 1.1);
+.fa.fa-arrow-left {
+    font-size: 45px;
+    color: white;
+    position: fixed;
+    left: 50px;
+    top: 50px;
+}
+
+.fa.fa-arrow-left:hover {
+    transform: scale(1.2,1.2);
+}
+
+a:hover {
+    transform: scale(1.1);
 }

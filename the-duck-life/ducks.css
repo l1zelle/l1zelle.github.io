@@ -2,10 +2,16 @@ body {
     background-color: #FFBE16;
 }
 
+.nav {
+    height: 50px;
+    margin: 15px;
+}
+
 img {
     border-radius: 15%;
     width: 20%;
     height: 20%;
+    transition: transform 0.2s ease-in-out;
 }
 
 .container {
@@ -22,7 +28,47 @@ img {
     
 }
 
+.fa.fa-arrow-left {
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    z-index: 1;
+}
+
+.back {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
 img:hover {
+    transform: scale(1.1,1.1);
+}
+
+.back:hover {
     transform: scale(1.3,1.3);
+}
+
+@keyframes moveText {
+    0% { left: 10%; }
+    50% { left: 55%; }
+    100% { left: 10%; }
+}
+
+.moving-title {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    position: absolute; 
+    top: 30px;
+    animation: moveText 10s linear infinite;
 }
 
