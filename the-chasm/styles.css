@@ -1,0 +1,52 @@
+body {
+    background-color: #FFA052;
+}
+
+.chasm {
+
+    width: 42%;
+    height: 70%;
+    position: relative;
+    top: 60%;
+    left: 30%;
+    /*transition: transform 5s ease-in-out;*/
+   
+}
+
+#chasm-layer1 {
+    position: absolute;
+    z-index: 5;
+    top: 32%;
+    left: 34%;
+    transition: 1000ms;
+}
+
+#chasm-layer2 {
+    position: absolute;
+    z-index: 4;
+    top: 22%;
+    left: 25%;
+    transition: 1000ms;
+}
+
+#chasm-layer3 {
+    position: absolute;
+    z-index: 3;
+    top: 12%;
+    left: 15%;
+    transition: 1000ms;
+}
+
+#chasm-layer4 {
+    position: absolute;
+    z-index: 2;
+    top: 5%;
+    left: 6%;
+    transition: 1000ms;
+}
+
+/*.chasm:hover {
+    transform: scale(5,5);
+}*/
+
+
