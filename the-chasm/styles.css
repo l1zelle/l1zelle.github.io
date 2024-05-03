@@ -1,5 +1,6 @@
 body {
-    background-color: #FFA052;
+    /*background-color: #FFA052;*/
+    background-color:rgb(156, 16, 16); 
 }
 
 .chasm {
@@ -42,7 +43,7 @@ body {
     z-index: 2;
     top: 5%;
     left: 6%;
-    transition: 1000ms;
+    transition: 3s;
 }
 
 /*.chasm:hover {

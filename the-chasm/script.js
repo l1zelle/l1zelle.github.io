@@ -1,5 +1,3 @@
-/*let rotation = 0;*/
-
 function updateTime() {
 
 let today = new Date();
@@ -12,17 +10,17 @@ let millisecondsElem = document.getElementById("chasm-layer4");
 let thisHour = today.getHours();
 let thisMinute = today.getMinutes();
 let thisSecond = today.getSeconds();
-let thisMillisecond = today.getMilliseconds();
+let thisMillisecond = thisSecond * 1000;
 
-/*let rotationIncrement = (360 / 60) * (1 / 1000); 
-rotation += rotationIncrement;*/
 
-let mappedMillisecond = map(thisMillisecond, 0, 999, 0, 360);
-console.log(mappedMillisecond);
+let mappedMillisecond = map(thisMillisecond, 0, 59000, 0, 360);
+console.log("mapped:" + mappedMillisecond);
+console.log(thisMillisecond);
 millisecondsElem.style.transform = "rotate(" + mappedMillisecond + "deg)";
 
 let mappedSecond = map(thisSecond, 0, 59, 0, 360);
 console.log(mappedSecond);
+console.log(thisSecond);
 secondsElem.style.transform = "rotate(" + mappedSecond + "deg)";
 
 let mappedMinute = map(thisMinute, 0, 59, 0, 360);
@@ -32,9 +30,16 @@ minutesElem.style.transform = "rotate(" + mappedMinute + "deg)";
 let mappedHour = map(thisHour, 0, 23, 0, 360);
 console.log(mappedHour);
 hoursElem.style.transform = "rotate(" + mappedHour + "deg)";
+
+if (thisMillisecond === 0) {
+    millisecondsElem.style.transform = "rotate(360deg)"
 }
 
-setInterval(updateTime, 1);
+
+
+}
+
+setInterval(updateTime, 1000);
 
 function map(value, low1, high1, low2, high2){
   
