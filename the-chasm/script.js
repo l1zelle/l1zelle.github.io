@@ -1,3 +1,25 @@
+let intro = document.querySelector('.intro');
+
+document.addEventListener('DOMContentLoaded', (e)=>{
+    setTimeout(()=>{
+        intro.classList.add('display-none');
+    }, 2000);
+})
+
+let colors = ["#DD512C", "#931818", "#A54317", "#D80000", "#F21616"];
+
+    function getRandomColor() {
+        return colors[Math.floor(Math.random() * colors.length)];
+    }
+
+    function changeBackgroundColor() {
+        let newColor = getRandomColor();
+        document.body.style.backgroundColor = newColor;
+    }
+
+    changeBackgroundColor();
+    setInterval(changeBackgroundColor, 1000);
+
 function updateTime() {
 
 let today = new Date();
