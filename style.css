@@ -5,6 +5,20 @@ body {
     font-style: normal;
 }
 
+.circle {
+    --circle-size: 60px;
+    position: fixed;
+    height: var(--circle-size);
+    width: var(--circle-size);
+    border: none;
+    border-radius: 100%;
+    top: calc(var(--circle-size) / 2 * -1);
+    left: calc(var(--circle-size) / 2 * -1);
+    pointer-events: none;
+    background-color:aquamarine;
+    opacity: 52%;
+    
+  }
 
   
 .title {
@@ -15,6 +29,7 @@ body {
     text-align: center;
     font-size: 100px;
     margin-top: 85px;
+    text-shadow: 3px 6px 10px #4f9377;
 }
 
 .subtitle {
@@ -35,6 +50,7 @@ img {
     margin-right: auto;
     border-radius: 99%;
     margin-bottom: 45px;
+    box-shadow: 5px 6px 10px 2px #63786f;
     
 }
 
@@ -48,7 +64,7 @@ img {
 
 }
 
-.column {
+#column1, #column2 {
     display: block;
     background-color: #fbffd5;
     padding: 50px 70px;
@@ -57,6 +73,7 @@ img {
     border-radius: 50px;
     font-size: 30px;
     line-height: 50px;
+    box-shadow: 5px 6px 10px 2px #63786f;
 
 }
 
@@ -71,6 +88,7 @@ a {
 
 a:hover {
     color:rgb(129, 177, 244);
+    
 }
 
 .title:hover{
