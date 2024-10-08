@@ -1,18 +1,146 @@
 body {
-    font-family: "Fira Sans", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: white;
+  background-image: linear-gradient(#16154B 44.09%, rgba(133, 131, 212, 0.21) 100%), url(images/plain-concrete.png);
+  background-repeat: repeat-y;
+  background-position: bottom;
+  background-size: 100vw;
+
+  
 }
 
 .title {
-    font-family: "rig-sans", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 150px;
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 150px;
+  transform: translate(16%,100%);
+
+  
 }
 
-.paragraph {
-    font-family: "Fira Sans", sans-serif;
-  font-weight: 400;
+.buttons {
+    width: 65%;
+    height: 80px;
+    margin: auto;
+    margin-top: 300px;
+    margin-bottom: 400px;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.about-button {
+  width: 400px;
+  height: 450px;
+  background-image: url(images/about-concrete.png);
+  background-size: contain;
+  border-radius: 30%;
+  
+}
+
+.about-button:hover {
+  background-image: url(images/about-pigeon.png);
+  transition: background-image 0.4s ease-in-out;
+}
+
+.sections-button {
+  width: 400px;
+  height: 450px;
+  background-image: url(images/section-concrete.png);
+  background-size: contain;
+  border-radius: 30%;
+  
+  
+}
+
+.sections-button:hover {
+  background-image: url(images/sections-pigeon.png);
+  transition: background-image 0.4s ease-in-out;
+}
+
+
+.quote {
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
   font-style: normal;
+  font-size: 50px;
+  margin: 150px;
+  margin-bottom: 200px;
+  margin-top: 300px;
+}
+
+.header {
+  
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.nav {
+    width: 100%;
+    height: 20px;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+  
+}
+
+ul {
+  display: block;
+  text-align: end;
+  margin-right: 70px;
+  font-size: 2vw;
+  
+}
+
+li:hover {
+  filter: blur(2px);
+  transition:  0.2s ease-in-out;
+}
+
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 40px; 
+  
+}
+
+.logo {
+  width: 100px;
+  padding-top: 20px;
+  padding-left: 10px;
+
+}
+
+.logo:hover {
+  filter: blur(2px);
+  transition:  0.2s ease-in-out;
+}
+
+ #background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  
+}
+
+a:link, a:hover, a:visited, a:active {
+  text-decoration: none;
 }
