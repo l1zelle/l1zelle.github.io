@@ -4,7 +4,6 @@ body {
   font-style: normal;
   color: white;
   background-image: linear-gradient(#16154B 44.09%, rgba(16, 223, 54, 0.21) 100%), url(images/plain-concrete.png);
- 
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed; 

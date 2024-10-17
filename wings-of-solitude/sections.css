@@ -1,9 +1,13 @@
 body {
-    background-color: #16154B;
-    font-family: "Fira Sans", sans-serif;
+     font-family: "Fira Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: white;
+  background-color: #2e1d65;
+  color:white;
+  background-image: linear-gradient(#16154bb8 44.09%, rgba(54, 16, 223, 0.21) 100%), url(images/plain-concrete.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
 }
 
 
